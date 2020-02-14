@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    position: relative;
+    background-image: url(billeder/baggrund.png), url(billeder/bg-pattern.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+}
+
+
+  
+@media only screen and (min-width: 300px) {
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+
+  /* top-bar  */
+.logo-bar {
+  background-image: url(billeder/topbar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    
+  }
+
+
+
+  .ikoner-L {
+    display: inline-flex;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10%;
+    
+  }
+
+  .TLF-R {
+    display: inline-flex;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10%;
+    
+  }
+
+  .telefoni {
+    margin:10px 5px auto 5px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #c5bfbe;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .telefoni strong {
+    margin:10px 5px auto 5px;
+    font-family: 'Barlow' sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #919da7;
+  }
+  /* top-bar slut */
+
+/* Ikoner i topbar */
+
+  .icon {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-facebook {
+    display:block;
+    margin:10px 5px auto 5px;
+    cursor: pointer;
+    background-image: url(billeder/facebook.png);
+  }
+  
+  .icon-facebook:hover,
+  .icon-facebook:focus {
+    background-image: url(billeder/facebook-hover.png);
+  }
+
+  .icon-vline {
+    display:block;
+    margin:15px 1px auto 1px;
+    cursor: pointer;
+    background-image: url(billeder/V-LINE.png);
+    height: 23px;
+  }
+
+  .icon-bænk {
+    display:block;
+    margin:12px 10px auto -20px;
+    cursor: pointer;
+    background-image: url(billeder/baenk.png);
+  }
+
+  .icon-telefon {
+    display:block;
+    margin:10px 5px auto 5px;
+    cursor: pointer;
+    background-image: url(billeder/telefon.png);
+  }
+
+  /* Ikoner i topbar */
+
+  .LINE {
+    background-color: #fff;
+    min-height: 15px;
+
+}
+
+hr.streg {
+    background-color: #c5bfbe;
+    width: 99.5%;
+    opacity: 0.5;
+    margin-top: 15px;
+    z-index: 55;
+}
+
+  }
