@@ -19,6 +19,253 @@ body {
   
 @media only screen and (min-width: 300px) {
 
+
+ /* top-bar  */
+ .logo-bar {
+  background-image: url(billeder/topbar.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+    width: 100%;
+    height: 70px;
+   position: relative;
+   z-index: 77;
+  }
+
+ 
+.logo {
+    display: block;
+  width: 20%;
+    z-index: 99;
+    margin: 0 auto;
+    margin-top: -55px;
+    padding-left: 85px;
+    padding-bottom: 100px;
+    
+   
+}
+
+
+
+  .ikoner-L {
+    display: inline-flex;
+    margin-top: 1px;
+    float: left;
+    margin-left: 5%;
+    
+  }
+
+  .TLF-R {
+    display: inline-flex;
+    margin-top: 1px;
+    float: right;
+    margin-right: 5%;
+    
+  }
+
+  .telefoni {
+    margin:10px 5px auto 5px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #c5bfbe;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .telefoni strong {
+    margin:10px 5px auto 5px;
+    font-family: 'Barlow' sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #919da7;
+  }
+  /* top-bar slut */
+
+/* Ikoner i topbar */
+
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-facebook {
+    display:block;
+    margin:10px 5px auto 5px;
+    cursor: pointer;
+    background-image: url(billeder/facebook.png);
+  }
+  
+  .icon-facebook:hover,
+  .icon-facebook:focus {
+    background-image: url(billeder/facebook-hover.png);
+  }
+
+  .icon-vline {
+    display:block;
+    margin:15px 1px auto 1px;
+    cursor: pointer;
+    background-image: url(billeder/V-LINE.png);
+    height: 23px;
+  }
+
+  .icon-bænk {
+    display:block;
+    margin:12px 10px auto -20px;
+    cursor: pointer;
+    background-image: url(billeder/baenk.png);
+  }
+
+  .icon-telefon {
+    display:block;
+    margin:10px 5px auto 5px;
+    cursor: pointer;
+    background-image: url(billeder/telefon.png);
+  }
+
+  /* Ikoner i topbar */
+
+  .LINE {
+    background-color: #fff;
+    min-height: 15px;
+position: relative;
+}
+
+hr.streg {
+    background-color: #c5bfbe;
+    width: 99.5%;
+    opacity: 0.5;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+
+
+  .txtpris {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtpris:after {
+    content: "";
+    margin: 0px 14px;
+    background: -webkit-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
+    background: -moz-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
+    background: radial-gradient(circle at 50% 50%, #475b6d 1%, transparent 15%);
+    background-size: 1em 1em;
+    background-position: 0 0.5em;
+    background-position-y: 25px;
+    background-repeat: repeat-x;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-order: 2;
+    order: 2;
+  
+}
+
+
+
+.MENU-p {
+    margin-left: 10%;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 1px;
+    color: #6e605e;
+    font-weight: 300;
+    
+
+
+}
+
+.MENU-p strong {
+    
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 1px;
+    color: #475b6d;
+    font-weight: 400;
+
+
+
+}
+
+.MENU-pris {
+    margin-right: 10%;
+    font-size: 16px;
+    font-family: Heebo-Light, sans-serif;
+    letter-spacing: 1px;
+    color: #6e605e;
+    font-weight: 400;
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-order: 3;
+    order: 3;
+
+}
+
+.circleimg {
+  display: block;
+  margin: 0 auto;
+  margin-right: 15%;
+  margin-top: -60px;
+  width: 12%;
+}
+
+.circleimg-burger {
+  display: block;
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-top: 60px;
+  width: 12%;
+}
+
+/* Cirkel billeder på siden - slut */
+
+#start {
+  margin-top: -80px;
+}
+
+#burger {
+  margin-top: -165px;
+}
+
+
+#boernemenu {
+  padding-top: 30px;
+}
+.pølse-sektion {
+  max-width: 100%;
+  height: auto;
+  display: block;
+ margin: 40px auto;
+}
+
+
+.burger-sektion {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+ margin: 30px auto;
+}
+
+
+.lilletekst {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #475b6d;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+
 }
 
 
@@ -45,7 +292,7 @@ body {
     margin: 0 auto;
     margin-top: -30px;
     padding-left: 70px;
-   
+    padding-bottom: 1px;
 }
 
 
@@ -152,6 +399,29 @@ hr.streg {
     justify-content: space-between;
 }
 
+.txtpris:after {
+    content: "";
+    margin: 0px 14px;
+    background: -webkit-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
+    background: -moz-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
+    background: radial-gradient(circle at 50% 50%, #475b6d 1%, transparent 15%);
+    background-size: 1em 1em;
+    background-position: 0 0.5em;
+    background-position-y: 25px;
+    background-repeat: repeat-x;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-order: 2;
+    order: 2;
+  
+}
+
+
+
 .MENU-p {
     margin-left: 20%;
     font-size: 18px;
@@ -159,7 +429,7 @@ hr.streg {
     letter-spacing: 1px;
     color: #6e605e;
     font-weight: 300;
-
+    
 
 
 }
@@ -183,9 +453,15 @@ hr.streg {
     letter-spacing: 1px;
     color: #6e605e;
     font-weight: 400;
-
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-order: 3;
+    order: 3;
 
 }
+
+
+
 
   /* Cirkel billeder på siden */
 
@@ -244,6 +520,8 @@ hr.streg {
     font-weight: 400;
     letter-spacing: 1.5px;
 }
+
+
 
 
 
