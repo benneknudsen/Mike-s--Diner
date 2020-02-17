@@ -5,13 +5,13 @@ body {
     height: 100%;
     scroll-behavior: smooth;
     position: relative;
-    background: url(billeder/baggrund.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-      width:100%;
-     
+    background: url(billeder/bg.jfif); 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+      
+   
   
 }
 
@@ -64,7 +64,7 @@ body {
     font-family: 'Barlow', sans-serif;
     text-decoration: none;
     color: #c5bfbe;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
   }
 
@@ -82,8 +82,8 @@ body {
 
   .icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -110,7 +110,7 @@ body {
 
   .icon-bænk {
     display:block;
-    margin:25px 10px auto -28px;
+    margin:25px 10px auto -22px;
     cursor: pointer;
     background-image: url(billeder/baenk.png);
   }
@@ -273,25 +273,30 @@ color: white;
 }
 
 .sliderimg {
-width: 100%;
-height: auto;
- object-fit: contain;
- margin-bottom: -11px;
+display: none;
 }
+
+.sliderimg-mobil {
+  display: block;
+  width: 100%;
+  height: auto;
+   object-fit: contain;
+   margin-bottom: -11px;
+  }
 
 .slider-txt {
 position: absolute;
-top: 30%;
-left: 15%;
+top: 20%;
+left: 5%;
 
 }
 
 .slider-tlf {
 position: absolute;
 top: 48%;
-left: 45%;
+left: 35%;
 color: #c5bfbe;
-font-size: 2vw;
+font-size: 2.5vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 500;
 letter-spacing: 4px;
@@ -310,29 +315,29 @@ letter-spacing: 4px;
 .slider-table {
 position: absolute;
 bottom: 3%;
-left: 15%;
-max-width: 6%;
+left: 5%;
+max-width: 10%;
 height: auto;
 }
 
 .slider-mike {
 position: absolute;
-top: 20px;
+top: 90px;
 right: 0%;
-max-width: 50%;
+max-width: 80%;
 height: auto;
 }
 
 .lille-h2 {
 color: #c5bfbe;
-font-size: 1.8vw;
+font-size: 2.2vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 600;
 }
 
 .større-h2 {
 margin: 1px 0;
-font-size: 3.5vw;
+font-size: 5.5vw;
 letter-spacing: 3px;
 
 font-family: 'Barlow', sans-serif;
@@ -340,9 +345,9 @@ font-weight: 400;
 }
 
 .slider-p {
-margin-left: 30px;
+margin-left: 10px;
 color: #c5bfbe;
-font-size: 1.4vw;
+font-size: 2vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 300;
 }
@@ -360,25 +365,26 @@ color: #c5bfbe;
 .slider-adresse {
   position: absolute;
   display: inline-flex;
-  right: 5%;
- top: 75%;
-  width: 50%;
+  right: 10%;
+ top: 65%;
+  
   
 }
 
 .icon-storline {
   display:block;
-margin: 5px 10px 10px 30px;
+margin: 18px 10px 10px 30px;
+
   cursor: pointer;
   background-image: url(billeder/stor-line.png);
-  height: 30px;
+  height: 40px;
 }
 
 .adresse {
   display:block;
 letter-spacing: 2px;
   color: #c5bfbe;
-  font-size: 1.4vw;
+  font-size: 2.5vw;
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
  
@@ -649,11 +655,16 @@ color: white;
 }
 
 .sliderimg {
+  display: block;
  width: 100%;
 height: auto;
    object-fit: contain;
    margin-bottom: -4px;
 }
+
+.sliderimg-mobil {
+ display: none;
+ }
 
 .slider-txt {
   position: absolute;
