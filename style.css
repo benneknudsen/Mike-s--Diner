@@ -35,7 +35,7 @@ body {
 .logo {
   position: absolute;
   width: 23%;
- top: 0.7%;
+ top: 52px;
     left: 37.5%;
     
    
@@ -60,7 +60,7 @@ body {
   }
 
   .telefoni {
-    margin:25px 5px auto 5px;
+    margin:15px 5px auto 5px;
     font-family: 'Barlow', sans-serif;
     text-decoration: none;
     color: #c5bfbe;
@@ -90,7 +90,7 @@ body {
   
   .icon-facebook {
     display:block;
-    margin:20px 5px auto 5px;
+    margin:10px 5px auto 5px;
     cursor: pointer;
     background-image: url(billeder/facebook.png);
   }
@@ -102,7 +102,7 @@ body {
 
   .icon-vline {
     display:block;
-    margin:20px 11px auto 1px;
+    margin:10px 11px auto 1px;
     cursor: pointer;
     background-image: url(billeder/V-LINE.png);
     height: 23px;
@@ -110,14 +110,14 @@ body {
 
   .icon-bænk {
     display:block;
-    margin:25px 10px auto -22px;
+    margin:15px 10px auto -22px;
     cursor: pointer;
     background-image: url(billeder/baenk.png);
   }
 
   .icon-telefon {
     display:block;
-    margin:20px 5px auto 5px;
+    margin:10px 5px auto 5px;
     cursor: pointer;
     background-image: url(billeder/telefon.png);
   }
@@ -147,30 +147,15 @@ hr.streg {
 }
 
 .txtpris:after {
-    content: "";
-    margin: 0px 14px;
-    background: -webkit-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
-    background: -moz-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
-    background: radial-gradient(circle at 50% 50%, #475b6d 1%, transparent 15%);
-    background-size: 1em 1em;
-    background-position: 0 0.5em;
-    background-position-y: 25px;
-    background-repeat: repeat-x;
-    -webkit-flex-grow: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-grow: 1;
-    flex-grow: 1;
-    -webkit-order: 2;
-    -moz-order: 2;
-    -ms-order: 2;
-    order: 2;
+  display: none;
   
 }
 
 
 
 .MENU-p {
-    margin-left: 10%;
+    margin-left: 7%;
+    
     font-size: 18px;
     font-family: "Barlow", sans-serif;
     letter-spacing: 1px;
@@ -194,7 +179,7 @@ hr.streg {
 }
 
 .MENU-pris {
-    margin-right: 10%;
+    margin-right: 7%;
     font-size: 16px;
     font-family: Heebo-Light, sans-serif;
     letter-spacing: 1px;
@@ -293,13 +278,14 @@ left: 5%;
 
 .slider-tlf {
 position: absolute;
-top: 48%;
-left: 35%;
+top: 82%;
+left: 30%;
 color: #c5bfbe;
-font-size: 2.5vw;
+font-size: 3vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 500;
 letter-spacing: 4px;
+text-decoration: none;
 }
 
 .slider-tlf strong {
@@ -313,24 +299,16 @@ letter-spacing: 4px;
 
 
 .slider-table {
-position: absolute;
-bottom: 3%;
-left: 5%;
-max-width: 10%;
-height: auto;
+display: none;
 }
 
 .slider-mike {
-position: absolute;
-top: 90px;
-right: 0%;
-max-width: 80%;
-height: auto;
+display: none;
 }
 
 .lille-h2 {
 color: #c5bfbe;
-font-size: 2.2vw;
+font-size: 2.8vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 600;
 }
@@ -347,9 +325,10 @@ font-weight: 400;
 .slider-p {
 margin-left: 10px;
 color: #c5bfbe;
-font-size: 2vw;
+font-size: 2.5vw;
 font-family: 'Barlow', sans-serif;
 font-weight: 300;
+
 }
 
 .slider-p:before {
@@ -364,20 +343,19 @@ color: #c5bfbe;
 
 .slider-adresse {
   position: absolute;
-  display: inline-flex;
-  right: 10%;
- top: 65%;
-  
+  display: inline;
+  right: 5%;
+ top: 20%;
   
 }
 
 .icon-storline {
   display:block;
 margin: 18px 10px 10px 30px;
-
+transform: rotate(90deg);
   cursor: pointer;
   background-image: url(billeder/stor-line.png);
-  height: 40px;
+  height: 50px;
 }
 
 .adresse {
@@ -523,6 +501,7 @@ hr.streg {
 }
 
 .txtpris:after {
+  display: block;
     content: "";
     margin: 0px 14px;
     background: -webkit-radial-gradient(50% 50%, circle, #475b6d 1%, transparent 15%);
@@ -695,6 +674,7 @@ height: auto;
 
 
 .slider-table {
+  display: block;
   position: absolute;
   bottom: 10%;
   left: 15%;
@@ -703,6 +683,7 @@ height: auto;
 }
 
 .slider-mike {
+  display: block;
   position: absolute;
   top: 80px;
   right: 0%;
@@ -748,7 +729,7 @@ height: auto;
   position: absolute;
   display: inline-flex;
   right: 5%;
- top: 75%;
+ top: 80%;
   width: 50%;
   
 }
@@ -757,6 +738,7 @@ height: auto;
   display:block;
 margin: 25px 10px 10px 30px;
   cursor: pointer;
+  transform: rotate(0deg);
   background-image: url(billeder/stor-line.png);
   height: 70px;
 }
