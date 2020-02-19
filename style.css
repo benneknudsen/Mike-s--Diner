@@ -24,20 +24,22 @@ body {
  .logo-bar {
   background-image: url(billeder/topbar-m.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
     width: 100%;
-    height: 225px;
-   position: relative;
-   z-index: 77;
+    height: 65px;
+  position: relative;
+  z-index: 22;
   }
 
  
 .logo {
   position: absolute;
-  width: 23%;
- top: 52px;
+  width: 26%;
+ margin-top: -6%;
+  top: 0%;
     left: 37.5%;
-    
+    position: relative;
+    z-index: 47;
    
 }
 
@@ -60,11 +62,11 @@ body {
   }
 
   .telefoni {
-    margin:15px 5px auto 5px;
+    margin:25px 5px auto 5px;
     font-family: 'Barlow', sans-serif;
     text-decoration: none;
     color: #c5bfbe;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 500;
   }
 
@@ -82,15 +84,15 @@ body {
 
   .icon {
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   .icon-facebook {
     display:block;
-    margin:10px 5px auto 5px;
+    margin:20px 5px auto 5px;
     cursor: pointer;
     background-image: url(billeder/facebook.png);
   }
@@ -102,7 +104,7 @@ body {
 
   .icon-vline {
     display:block;
-    margin:10px 11px auto 1px;
+    margin:23px 11px auto 1px;
     cursor: pointer;
     background-image: url(billeder/V-LINE.png);
     height: 23px;
@@ -110,14 +112,14 @@ body {
 
   .icon-bænk {
     display:block;
-    margin:15px 10px auto -22px;
+    margin:25px 10px auto -30px;
     cursor: pointer;
     background-image: url(billeder/baenk.png);
   }
 
   .icon-telefon {
     display:block;
-    margin:10px 5px auto 5px;
+    margin:20px 5px auto 5px;
     cursor: pointer;
     background-image: url(billeder/telefon.png);
   }
@@ -139,6 +141,26 @@ hr.streg {
 }
 
 
+.hvid {
+  background-color: white;
+  height: 15px;
+  position: relative;
+  z-index: 5;
+}
+
+.streg {
+margin-top: -20px;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  z-index: 7;
+}
+
+hr.new1 {
+ margin-top: 15px!important;
+  border-top: 1px solid #c5bfbe;
+  background-color: white;
+}
 
 
   .txtpris {
@@ -196,7 +218,7 @@ hr.streg {
   display: block;
   margin: 0 auto;
   margin-right: 5%;
-  margin-top: -80px;
+  margin-top: 20px;
   padding-bottom: 50px;
   width: 22%;
 }
@@ -383,17 +405,18 @@ letter-spacing: 2px;
  
     width: 100%;
     height: 70px;
-   position: relative;
-   z-index: 77;
+  
   }
 
  
 .logo {
     position: absolute;
   width: 17%;
+  margin-top: -50px;
  top: 0.7%;
     left: 41%;
-   
+   position: relative;
+   z-index: 33;
 }
 
 
@@ -492,7 +515,13 @@ hr.streg {
     position: relative;
 }
 
-
+hr {
+  background-color: white;
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
 
 
 .txtpris {
@@ -562,7 +591,26 @@ hr.streg {
 
 }
 
+.hvid {
+  background-color: white;
+  height: 20px;
+  position: relative;
+  z-index: 5;
+}
 
+.streg {
+margin-top: -20px;
+  height: 15px;
+  background-color: white;
+  position: relative;
+  z-index: 7;
+}
+
+hr.new1 {
+ margin-top: 15px!important;
+  border-top: 1px solid #c5bfbe;
+  background-color: white;
+}
 
 
   /* Cirkel billeder på siden */
@@ -571,7 +619,7 @@ hr.streg {
     display: block;
     margin: 0 auto;
     margin-right: 15%;
-    margin-top: 230px;
+    margin-top: 30px;
     width: 12%;
     padding-bottom: 0px;
 }
